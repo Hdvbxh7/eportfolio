@@ -1,0 +1,294 @@
+html, body,div{
+  background-color: darkseagreen;
+  padding: 0rem;
+  margin: 0rem;
+  
+}
+header  {
+  height: 8rem;
+  width: auto;
+  padding: 0rem;
+  margin: 0px;
+  background : url('bandeau-photo.jpg') no-repeat 100%;
+  border:0px;
+}
+header div{
+  padding: 2rem;
+  background:none;
+  height:4rem;
+  width: auto;
+}
+header h1{
+  margin: 0rem;
+  padding-top: 1rem;
+  color: white;
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bandeau{
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0rem;
+}
+.bandeau h1{
+  padding: 0rem;
+  margin: 0rem;
+  color: #111;
+  margin-left: 32rem;
+  margin-right: 31rem;
+}
+.bandeau .box{
+  float: left;
+}
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #c8d6a2;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #003e1c;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #a1c740;
+}
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+.icon {
+  width: 35px;
+  height: auto;
+}
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #003e1c ;
+  margin: 5px 4px;
+}
+.anglais a{
+  background: url("anglais.png") no-repeat 80% 0;
+  background-size: 2rem 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 81rem;
+  vertical-align: middle;
+}
+.anglais{
+  float: left;
+  vertical-align: middle;
+  margin-top: 0.2rem;
+  background: none;
+}
+.francais{
+  float: left;
+  vertical-align: middle;
+  margin-top: 0.3rem;
+  background: none;
+}
+.francais a{
+  background: url("france.png") no-repeat 100% 0;
+  background-size: 1.75rem 1.75rem;
+  padding-left: 1.9rem;
+  padding-bottom: 1.9rem;
+  margin-left: 81rem;
+}
+.aboutme{
+  background: darkseagreen;
+  height: 34rem;
+}
+.AMcorps{
+  height: 22rem;
+}
+.description{
+  margin-top: 2rem;
+}
+.AMtitre{
+  height: 3rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+.AMtitre h1{
+  margin: 0rem;
+  padding: 0rem;
+  height: 1rem;
+}
+.aboutme div{
+  background: none;
+}
+.aboutme p{
+  float:left;
+}
+.profil{
+  border-radius: 20rem;
+  height: 25rem;
+  width: 25rem ;
+  padding: 0rem;
+  margin-left: 4rem;
+  float:left;
+}
+.video{
+  margin: 0rem;
+  padding: 0rem;
+  background: #82c46c;
+}
+.video video{
+  height: 25rem;
+  width: 44rem;
+  margin: 0rem;
+  padding: 0rem;
+  padding-bottom: 1rem;
+}
+.video h1{
+  margin-left: 0rem;
+  padding-top: 1.5rem;
+}
+.pdfE{
+  background:url("CVE.jpg") no-repeat 100% 0;
+  background-size: 10rem 5rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+  margin-right: 5rem;
+}
+.pdfF{
+  background:url("CVF.jpg") no-repeat 100% 0;
+  background-size: 10rem 5rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+  margin-right: 5rem;
+}
+.cv div{
+  margin-bottom: 2rem;
+}
+.pdf{
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+  height: 10rem;
+}
+.lnk{
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+  color: #000080;
+}
+.lnk div{
+  margin: 0rem;
+}
+.lnk h1{
+  margin: 0rem;
+  padding: 0rem;
+}
+.lnk2{
+  padding-left: 5rem;
+}
+.pdf div{
+
+  height: 5rem;
+}
+.linkedinh{
+  background: url("logo_linkedin.png") no-repeat 100% 0;
+  background-size: 3rem 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+.linkedinh:hover{
+  background: url("logo_linkedin2.png") no-repeat 100% 0;
+  background-size: 3rem 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+.cv{
+  padding-top: 2rem;
+  height: 20rem;
+}
+.cv a{
+  vertical-align: middle;
+  margin-left: 0rem;
+  margin-right: 5rem;
+}
+.blanc{
+  background: none;
+  height: 15rem;
+}
+.contact{
+  background: darkgreen;
+  color: white;
+  padding: 0rem;
+  margin: 0rem;
+  height: 14rem;
+}
+.contact h1{
+  padding: 0rem;
+  margin: 0rem; 
+  padding-bottom: 1rem;
+}
+.contact p{
+  padding: 0.5rem;
+  margin: 0rem;
+}
+.link{
+  width: 60px;
+  height: 30px;
+  background: none;
+  padding-top: 1rem;
+}
+.linkedin{
+  background: url("logo_linkedin.png") no-repeat 100% 0;
+  background-size: 30px 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.linkedin:hover{
+  background: url("logo_linkedin2.png") no-repeat 100% 0;
+  background-size: 30px 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.github{
+  background: url("logo_github.png") no-repeat 100% 0;
+  background-size: 30px 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
+.github:hover{
+  background: url("logo_github2.png") no-repeat 100% 0;
+  background-size: 30px 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
