@@ -126,6 +126,48 @@ p{
   padding-bottom: 1.9rem;
   margin-left: 81rem;
 }
+.welcomep{
+  float: left;
+  height: 25rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-radius: 4rem;
+}
+.welcometxt{
+  padding-top: 5rem;
+  font-family: cursive;
+  color: #175732;
+}
+.welcometxt h1{
+  font-family: cursive;
+  font-size:5.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 1rem;
+}
+.welcometxt h4{
+  padding-top: 0rem;
+  margin-top: 0rem;
+  font-size: 2rem;
+}
+.j{
+  height:30rem;
+}
+.gith{
+  height: 20rem;
+}
+.git2{
+  background: url("logo_github.png") no-repeat 100% 0;
+  background-size: 10rem 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+}
+.git2:hover{
+  background: url("logo_github.png") no-repeat 100% 0;
+  background-size: 10rem 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+  border-bottom: solid black;
+}
 .aboutme{
   background: darkseagreen;
   height: 34rem;
