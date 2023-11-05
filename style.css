@@ -51,11 +51,11 @@ p{
 /* Sidenav menu */
 .sidenav {
   height: 100%;
-  width: 250px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: -250px;
+  left: -300px;
   background-color: #c8d6a2;
   padding-top: 60px;
   transition: left 0.5s ease;
@@ -94,10 +94,10 @@ p{
 }
 .burger-icon span {
   display: block;
-  width: 35px;
-  height: 5px;
+  width: 56px;
+  height: 8px;
   background-color: #003e1c ;
-  margin: 5px 4px;
+  margin: 8px 6px;
 }
 /*.anglais a{
   background: url("anglais.png") no-repeat 80% 0;
@@ -416,6 +416,14 @@ p{
 .contact p{
   padding: 0.5rem;
   margin: 0rem;
+}
+.mail{
+  color: #fff;
+  text-decoration: none;
+}
+.mail:hover{
+  color: black;
+  text-decoration: underline;
 }
 .link{
   width: 60px;
