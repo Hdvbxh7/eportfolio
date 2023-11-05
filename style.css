@@ -9,7 +9,7 @@ header  {
   width: auto;
   padding: 0rem;
   margin: 0px;
-  background : url('bandeau-photo.jpg') no-repeat 100% 0;
+  background : url('photo/bandeau-photo.jpg') no-repeat 100% 0;
   border:0px;
 }
 header div{
@@ -157,13 +157,13 @@ p{
   height: 20rem;
 }
 .git2{
-  background: url("logo_github.png") no-repeat 100% 0;
+  background: url("photo/logo_github.png") no-repeat 100% 0;
   background-size: 10rem 10rem;
   padding-right: 10rem;
   padding-bottom: 10rem;
 }
 .git2:hover{
-  background: url("logo_github.png") no-repeat 100% 0;
+  background: url("photo/logo_github.png") no-repeat 100% 0;
   background-size: 10rem 10rem;
   padding-right: 10rem;
   padding-bottom: 10rem;
@@ -333,14 +333,14 @@ p{
   padding-top: 1.5rem;
 }
 .pdfE{
-  background:url("CVE.jpg") no-repeat 100% 0;
+  background:url("photo/CVE.jpg") no-repeat 100% 0;
   background-size: 10rem 5rem;
   padding-right: 10rem;
   padding-bottom: 5rem;
   margin-right: 5rem;
 }
 .pdfF{
-  background:url("CVF.jpg") no-repeat 100% 0;
+  background:url("photo/CVF.jpg") no-repeat 100% 0;
   background-size: 10rem 5rem;
   padding-right: 10rem;
   padding-bottom: 5rem;
@@ -376,16 +376,17 @@ p{
   height: 5rem;
 }
 .linkedinh{
-  background: url("logo_linkedin.png") no-repeat 100% 0;
+  background: url("photo/logo_linkedin.png") no-repeat 100% 0;
   background-size: 3rem 3rem;
   padding-right: 3rem;
   padding-bottom: 3rem;
 }
 .linkedinh:hover{
-  background: url("logo_linkedin2.png") no-repeat 100% 0;
+  background: url("photo/logo_linkedin.png") no-repeat 100% 0;
   background-size: 3rem 3rem;
   padding-right: 3rem;
   padding-bottom: 3rem;
+  border-bottom: 1px solid blue;
 }
 .cv{
   padding-top: 2rem;
@@ -423,28 +424,31 @@ p{
   padding-top: 1rem;
 }
 .linkedin{
-  background: url("logo_linkedin.png") no-repeat 100% 0;
+  background: url("photo/logo_linkedin.png") no-repeat 100% 0;
   background-size: 30px 30px;
   padding-right: 30px;
   padding-bottom: 30px;
 }
 .linkedin:hover{
-  background: url("logo_linkedin2.png") no-repeat 100% 0;
+  background: url("photo/logo_linkedin.png") no-repeat 100% 0;
   background-size: 30px 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+  border-bottom: 1rem solid blue;
 }
 .github{
-  background: url("logo_github.png") no-repeat 100% 0;
+  background: url("photo/logo_github.png") no-repeat 100% 0;
   background-size: 30px 30px;
   padding-right: 30px;
   padding-bottom: 30px;
   margin-left: 10px;
+  
 }
 .github:hover{
-  background: url("logo_github2.png") no-repeat 100% 0;
+  background: url("photo/logo_github.png") no-repeat 100% 0;
   background-size: 30px 30px;
   padding-right: 30px;
   padding-bottom: 30px;
   margin-left: 10px;
+  border-bottom: 1rem solid black;
 }
