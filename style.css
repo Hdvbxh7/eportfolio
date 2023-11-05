@@ -5,15 +5,15 @@ html, body,div{
   
 }
 header  {
-  height: 8rem;
+  height: 10.5rem;
   width: auto;
   padding: 0rem;
   margin: 0px;
-  background : url('bandeau-photo.jpg') no-repeat 100%;
+  background : url('bandeau-photo.jpg') no-repeat 100% 0;
   border:0px;
 }
 header div{
-  padding: 2rem;
+  padding: 3rem;
   background:none;
   height:4rem;
   width: auto;
