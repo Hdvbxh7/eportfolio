@@ -168,6 +168,57 @@ p{
   padding-bottom: 10rem;
   border-bottom: solid black;
 }
+.voyage1{
+  height: 20rem;
+  margin-bottom: 3rem;
+}
+.japon{
+  height: 15rem;
+  width: 22.5rem ;
+  padding: 0rem;
+  margin-left: 4rem;
+  float:left;
+}
+.japondes{
+  margin-top: 4rem;
+}
+.Vcorps{
+  height: 22rem;
+  background: none;
+}
+.Vtitre{
+  height: 3rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+.Vtitre h1{
+  margin: 0rem;
+  padding: 0rem;
+  height: 1rem;
+}
+.voyage2{
+  margin: 0rem;
+  padding: 0rem;
+  background: #82c46c;
+  height: 28rem;
+}
+.voyage2 .Vtitre{
+  background: none;
+  padding-top: 2rem;
+}
+.england{
+  height: 15rem;
+  width: 22.5rem ;
+  padding: 0rem;
+  margin-left: 4rem;
+  float:left;
+}
+.englanddes{
+  margin-top: 4rem;
+  padding-top: 2rem;
+  background: none;
+}
+
 .aboutme{
   background: darkseagreen;
   height: 34rem;
